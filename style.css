@@ -1,0 +1,63 @@
+body {
+  font-family: monospace;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px 5px 15px 0;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.receipt {
+  border-top: 2px dashed #000;
+  padding-top: 20px;
+  margin-top: 20px;
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+.receipt h2 {
+  text-align: center;
+}
+
+.receipt ul {
+  list-style: none;
+  padding: 0;
+}
+
+.receipt ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px dashed #aaa;
+  padding-bottom: 4px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: right;
+}
