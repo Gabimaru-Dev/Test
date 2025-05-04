@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake Receipt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Fake Receipt Generator</h1>
+
+    <input type="text" id="storeName" placeholder="Store Name" />
+    <div id="items"></div>
+    <button onclick="addItem()">+ Add Item</button>
+    <button onclick="generateReceipt()">Generate Receipt</button>
+
+    <div class="receipt" id="receiptBox" style="display:none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
